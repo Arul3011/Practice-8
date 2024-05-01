@@ -1,0 +1,62 @@
+
+.cointainer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cort{
+  width: 500px;
+  height: auto;
+  background-color: hsl(218, 23%, 25%);
+  border-radius: 7px;
+  box-shadow: 1px 1px 5px black;
+  /* display: flex;
+justify-content: center;
+  flex-direction: column; */
+ 
+}
+.adv{
+font-size: 25px;
+margin: 30px 50px;
+color: white;
+font-weight: 500;
+}
+.advnum{
+margin-top: 40px;
+font-weight: 500;
+color: hsl(150, 100%, 66%);;
+}
+button{
+  height: 50px;
+  width: 50px;
+  background-color:hsl(150, 100%, 66%);
+  border-radius: 50%;
+  transform: translateY(50%);
+  border-width: 0px;
+}
+.svg{
+  
+  /* margin-left: 25px; */
+  height: 20px;
+  width: 100%;
+  
+  background-image: url("pattern-divider-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10px;
+
+}
+button:hover{
+  box-shadow: 1px 1px 20px hsl(150, 100%, 66%);
+}
+@media(max-width:600px){
+  .cort{
+    width: 100%;
+  }
+  .svg{
+    background-image: url("pattern-divider-mobile.svg");
+   
+  }
+}
