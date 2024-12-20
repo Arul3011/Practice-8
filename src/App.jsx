@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import { FaBeer } from "react-icons/fa";
+import { FaDiceFive } from "react-icons/fa";
 
 function App() {
   const [count, setCount] = useState(true)
@@ -31,7 +31,7 @@ function App() {
         <p className='advnum'>ADVICE#{num}</p>
         <p className='adv'>"{court}"</p>
         <div className='svg'></div>
-        <button className='span' onClick={()=>setCount(!count)}><FaBeer /></button>
+        <button className='span' onClick={()=>setCount(!count)}><FaDiceFive /></button>
         </center>
       
       </div>
